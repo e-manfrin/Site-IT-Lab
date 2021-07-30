@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device=width">
+  <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+  <title>IT Lab - Talentos</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css? family = Montserrat: & display = swap" rel="stylesheet">
+  <link rel="stylesheet" href="../plugins/bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../plugins/bootstrap-5.0.2-dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="../plugins/bootstrap-5.0.2-dist/css/bootstrap-reboot.css">
+  <script src="../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="../plugins/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../plugins/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js"></script>
+</head>
+
+<script language="javascript" src="../javascript/funcoes.js"></script>
+
+<!-- Navbar !-->
+
+<header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../html/index.html"><img src="../img/logoorigem.png" width="50%"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/servicos.html">serviços</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/cases.html">case de sucesso</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/clientes.html">clientes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/talentos.html">talentos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/contato.html">contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<div class="banner-anuncio">
+  <img src="../img/future.jpg" alt="Foto do banner oportunidades.">
+</div>
+
+<div class="row banner-vagas">
+  <img src="../img/200.gif" alt="Gif vagas em aberto .">
+</div>
+
+<body>
+
+  <main>
+
+
+    <form class="formulario">
+
+      <div class="row g-3 nome">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Primeiro nome" aria-label="First name" size="20"
+            maxlength="30" required>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name" size="20"
+            maxlength="30" required>
+        </div>
+      </div>
+
+      <div class="row g-3 email">
+        <div class="col">
+          <input type="email" class="form-control" required placeholder="seuemail@dominio.com" aria-label="First name">
+        </div>
+
+
+
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="validationTextarea" placeholder="Escreva seus objetivos."
+            required></textarea>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <select class="form-select" required aria-label="select example">
+          <option value="">Vagas em abertos</option>
+          <option value="1">Estágio</option>
+          <option value="2">Analista Programador .Net </option>
+          <option value="3">Desenvolvedor Full Stack Node.js</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <input type="file" class="form-control" aria-label="file example" required>
+      </div>
+
+      <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </div>
+    </form>
+
+    <section class="logo-redes">
+      <img src="../img/logoinicial.png" class="mw-100" alt="Logo IT Lab">
+    </section>
+
+    <footer>
+      <p class="copyright">&copy; Copyright IT Lab</p>
+    </footer>
+
+  </main>
+</body>
+
+</html>
