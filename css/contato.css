@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*Página Contato*/
+
+.banner {
+    background-image: url(../img/businessman-pointing-at-his-presentation-on-the-futuristic-digital-screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-contato,.titulo-redes,.titulo-estabelecimento {
+    color: #87CEFA;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+    
+.titulo-contato p ,.titulo-redes p ,.titulo-estabelecimento p {
+    text-align: center;
+}
+
+.centro {
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;   
+}
+
+form label, form legend {
+    display: block;
+    font-size: 18px;
+    margin: 0 0 3px;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255,255,255,.9);
+}
+
+input:hover, textarea:hover {
+    background-color: #FFFAFA;
+}
+
+.checkbox {
+    margin-top: 20px;
+}
+
+.enviar {
+    width: 200px;
+    padding: 15px 0;
+    background: #87CEFA;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 20px 0;
+    
+}
+
+.enviar:hover {
+    background: #00BFFF ;
+    transform: scale(1.2);
+}
+
+.contato {
+    padding: 20px;
+}
+
+
+.link-linkd, .link-face {
+    padding: 10px;
+}

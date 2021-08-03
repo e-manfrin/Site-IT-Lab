@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/*Página Home*/
+
+.carousel-item h5 {
+    position: relative;
+    top: -320px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+.temaPrincipal, .temaSecundario, .temaTerciario {
+    
+    text-transform: uppercase; 
+    padding: 35px 0;  
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: -200px;
+    box-shadow: 10px 10px 200px white
+}
+
+.principal {
+    padding: 2em 0;
+    background: #FFFFFF;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;    
+}
+
+.principal em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.titulo-principal, .titulo-secundario, .titulo-terciario, .titulo-quartenario {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.logo {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.progress-prim, .progress-seg, .progress-ter, .progress-quar {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    
+}
+.pl-0 {
+    padding-left: 0;
+    /*!important*/
+}
+
+.mapa {
+    padding: 2em 0;
+    
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.redes-socias p {
+    margin: 0 0 2em;
+    text-align: center;
+    
+}
+
+.titulo-redes, .titulo-estabelecimento, .titulo-contato {
+    color: #87CEFA;
+    text-align: center; 
+    padding: 2px 0;
+}
+
+.imagem-it {
+  width: 100%;
+}
+

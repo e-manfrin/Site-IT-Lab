@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/*Página Cases de sucessos*/
+
+.principal {
+    padding: 2em 0;
+    background: #FFFFFF;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;      
+}
+
+.principal em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.titulo-quartenario {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    min-height: 348px;
+    padding-bottom: 40px;
+}
+
+.servicos li:hover {
+    border-color: #F0F8FF;
+    
+}
+
+.servicos li:active {
+    border-color: #87CEFA;
+}
+
+.servicos li:hover h2 {
+    font-size: 25px;
+}
+
+.servicos h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.servicos-descricao {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
