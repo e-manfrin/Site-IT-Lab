@@ -1,7 +1,19 @@
 @charset "UTF-8";
 
+:root {
+    --cinza:#FFFAFA;
+    --branco-cinzo:#F0F8FF;
+    --branco-claro: #f2f2f2;
+    --branco:#FFF;
+    --azul-claro:#00BFFF;
+    --azul-extra-claro:#87CEFA;
+    --montserrat: 'Montserrat', sans-serif 
+
+    --nome-da-variavel:valor;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;   
+    font-family: var(--montserrat);  
 }
 
 /*Padrão navbar navegação*/
@@ -21,7 +33,7 @@ body {
 
 .logo-redes {
     text-align: center;
-    background: #00BFFF;    
+    background: var(--azul-claro);    
 }
 
 .redes, .whats {
@@ -32,12 +44,24 @@ body {
 
 footer {
     text-align: center;
-    background: #FFFFFF;
+    background: var(--branco);
     padding: 5px;
 }
 
 .copyright {
-    color: #00BFFF;
+    color: var(--azul-claro);
     font-size: 13px;
     margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .principal,.secundario {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    .titulo-principal,.titulo-secundario,.imagem-it {
+        width: 100%;
+    }
 }

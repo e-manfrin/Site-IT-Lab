@@ -2,20 +2,18 @@
 
 /*Página de Serviços*/
 
-.principal {
+.principal-servicos {
     padding: 2em 0;
-    background: #FFFFFF;
+    background: var(--branco);
     width: 940px;
     margin: 0 auto;
 }
 
-.principal p {
+.principal-servicos p {
     margin: 0 0 1em;
-    
-    
 }
 
-.principal em {
+.principal-servicos em {
     font-style: italic;
     font-weight: bold;
 }
@@ -26,8 +24,6 @@
     margin: 0 0 1em;
     clear: left;
 }
-
-
 
 .servicos {
     width: 940px;
@@ -43,19 +39,19 @@
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--branco-claro);
     border-radius: 10px;
     min-height: 348px;
     padding-bottom: 40px;
 }
 
 .servicos li:hover {
-    border-color: #F0F8FF;
+    border-color: var(--branco-cinzo)
     
 }
 
 .servicos li:active {
-    border-color: #87CEFA;
+    border-color: var(--azul-extra-claro);
 }
 
 .servicos li:hover h2 {
@@ -72,4 +68,6 @@
     font-size: 15px;
     padding-top: 10px;
 }
+
+
 

@@ -2,6 +2,7 @@
 
 .banner-anuncio img {
     width: 100%;
+    max-width: 100%;
      
 }
 
@@ -29,8 +30,8 @@
 .enviar {
     width: 200px;
     padding: 15px 0;
-    background: #87CEFA;
-    color: white;
+    background: var(--azul-extra-claro);
+    color: var(--branco);
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -42,6 +43,6 @@
 }
 
 .enviar:hover {
-    background: #00BFFF ;
+    background: var(--azul-claro);
     transform: scale(1.2);
 }
