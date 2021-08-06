@@ -3,7 +3,6 @@
 .principal {
     padding: 2em 0;
     background: #FFFFFF;
-    width: 940px;
     margin: 0 auto;
 }
 
@@ -18,9 +17,10 @@
 
 .titulo-quartenario {
     text-align: center;
+    display: flow-root;
     font-size: 2em;
     margin: 0 0 1em;
-    clear: left;
+    
 }
 
 .sub-titulo {
@@ -28,15 +28,19 @@
 }
 
 .servicos {
-    width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
 
 .servicos li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
@@ -71,7 +75,10 @@
 }
 
 .enviar {
-    width: 200px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    text-align: center;
     padding: 15px 0;
     background: #87CEFA;
     color: white;

@@ -9,11 +9,11 @@
 }
 
 .titulo-contato,.titulo-redes,.titulo-estabelecimento {
-    color: #87CEFA;
     text-align: center;
+    display: flow-root;
     font-size: 2em;
     margin: 0 0 1em;
-    clear: left;
+    color: #87CEFA;
 }
     
 .titulo-contato p ,.titulo-redes p ,.titulo-estabelecimento p {

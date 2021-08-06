@@ -41,9 +41,9 @@
 
 .titulo-principal, .titulo-secundario {
     text-align: center;
+    display: flow-root;
     font-size: 2em;
     margin: 0 0 1em;
-    clear: left;
 }
 
 .logo {

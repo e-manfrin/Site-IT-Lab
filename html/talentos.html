@@ -62,73 +62,75 @@
 
 </header>
 
+<body>
+
   <div class="banner-anuncio">
     <img src="../img/future.jpg" alt="Foto do banner oportunidades.">
   </div>
 
-  <div class="row banner-vagas">
-    <img src="../img/200.gif" alt="Gif vagas em aberto .">
-  </div>
-
-<body>
-
   <main>
-
-
-    <form class="formulario">
-
-      <div class="row g-3 nome">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Primeiro nome" aria-label="First name" size="20"
-            maxlength="30" required>
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name" size="20"
-            maxlength="30" required>
-        </div>
+    <div class="container-fluid">
+      <div class="row banner-vagas">
+        <img src="../img/200.gif" alt="Gif vagas em aberto .">
       </div>
 
-      <div class="row g-3 email">
-        <div class="col">
-          <input type="email" class="form-control" required placeholder="seuemail@dominio.com" aria-label="First name">
+      <form class="formulario">
+
+        <div class="row g-3 nome">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Primeiro nome" aria-label="First name" size="20"
+              maxlength="30" required>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name" size="20"
+              maxlength="30" required>
+          </div>
         </div>
 
+        <div class="row g-3 email">
+          <div class="col">
+            <input type="email" class="form-control" required placeholder="seuemail@dominio.com"
+              aria-label="First name">
+          </div>
 
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="Escreva seus objetivos."
+              required></textarea>
+          </div>
+        </div>
 
         <div class="mb-3">
-          <label for="validationTextarea" class="form-label">Mensagem</label>
-          <textarea class="form-control" id="validationTextarea" placeholder="Escreva seus objetivos."
-            required></textarea>
+          <select class="form-select" required aria-label="select example">
+            <option value="">Vagas em abertos</option>
+            <option value="1">Estágio</option>
+            <option value="2">Analista Programador .Net </option>
+            <option value="3">Desenvolvedor Full Stack Node.js</option>
+          </select>
         </div>
-      </div>
 
-      <div class="mb-3">
-        <select class="form-select" required aria-label="select example">
-          <option value="">Vagas em abertos</option>
-          <option value="1">Estágio</option>
-          <option value="2">Analista Programador .Net </option>
-          <option value="3">Desenvolvedor Full Stack Node.js</option>
-        </select>
-      </div>
+        <div class="mb-3">
+          <input type="file" class="form-control" aria-label="file example" required>
+        </div>
 
-      <div class="mb-3">
-        <input type="file" class="form-control" aria-label="file example" required>
-      </div>
+        <div class="row">
+          <div class="col-md-12">
+            <input type="submit" value="Enviar" class="enviar">
 
-      <div class="mb-3">
-        <button class="btn btn-primary" type="submit">Enviar</button>
-      </div>
-    </form>
+          </div>
+        </div>
+      </form>
 
-    <section class="logo-redes">
-      <img src="../img/logoinicial.png" class="mw-100" alt="Logo IT Lab">
-    </section>
-
-    <footer>
-      <p class="copyright">&copy; Copyright IT Lab</p>
-    </footer>
-
+    </div>
   </main>
 </body>
+
+<section class="logo-redes">
+  <img src="../img/logoinicial.png" class="mw-100" alt="Logo IT Lab">
+</section>
+
+<footer>
+  <p class="copyright">&copy; Copyright IT Lab</p>
+</footer>
 
 </html>
